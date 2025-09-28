@@ -42,30 +42,6 @@
             "swatch_shape": "square"
           }
         },
-        "option_plus_option_plus_block_qytF6m": {
-          "type": "shopify://apps/option-plus/blocks/OptionPlusBlock/f5a2f298-6d68-4e0e-a5d5-c1c57a64b3d0",
-          "disabled": true,
-          "settings": {
-            "button_background_color": "#4caf50",
-            "button_text_color": "#ffffff",
-            "button_border_radius": 47,
-            "dropdown_background_color": "#ffffff",
-            "dropdown_text_color": "#000000",
-            "dropdown_border_radius": 50,
-            "textfield_background_color": "#ffffff",
-            "textfield_text_color": "#000000",
-            "textfield_border_radius": 50,
-            "color_swatch_border_color": "#000000",
-            "color_swatch_border_radius": 4,
-            "color_display_type": "swatches",
-            "color_selection_type": "multi",
-            "image_swatch_border_color": "#000000",
-            "image_swatch_border_radius": 38,
-            "image_display_type": "swatches",
-            "image_selection_type": "single",
-            "checkbox_display_type": "grid"
-          }
-        },
         "apo_product_options_app_block_igkije": {
           "type": "shopify://apps/apo-product-options/blocks/app-block/a1199153-7462-4b5b-8a80-f0eefba85e99",
           "settings": {}
@@ -112,7 +88,6 @@
         "price",
         "custom_liquid_HqbPfJ",
         "variant_picker",
-        "option_plus_option_plus_block_qytF6m",
         "apo_product_options_app_block_igkije",
         "quantity_selector",
         "custom_liquid_xmbRzx",
@@ -255,18 +230,7 @@
       "disabled": true,
       "name": "FAQ",
       "settings": {
-        "caption": "",
-        "heading": "FAQs",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "container_color_scheme": "",
-        "color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+      
       }
     }
   },
