@@ -28,7 +28,7 @@
           "type": "price",
           "settings": {}
         },
-        "custom_liquid_7JNmNw": {
+        "custom_liquid_HqbPfJ": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "{%- assign origin = product.metafields.custom.origin\n  | replace: '[', ''\n  | replace: ']', ''\n  | replace: '\"', ''\n-%}\n<p>Origin: {{ origin }}</p>"
@@ -36,33 +36,10 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button",
             "swatch_shape": "square"
-          }
-        },
-        "option_plus_option_plus_block_qytF6m": {
-          "type": "shopify://apps/option-plus/blocks/OptionPlusBlock/f5a2f298-6d68-4e0e-a5d5-c1c57a64b3d0",
-          "disabled": true,
-          "settings": {
-            "button_background_color": "#4caf50",
-            "button_text_color": "#ffffff",
-            "button_border_radius": 47,
-            "dropdown_background_color": "#ffffff",
-            "dropdown_text_color": "#000000",
-            "dropdown_border_radius": 50,
-            "textfield_background_color": "#ffffff",
-            "textfield_text_color": "#000000",
-            "textfield_border_radius": 50,
-            "color_swatch_border_color": "#000000",
-            "color_swatch_border_radius": 4,
-            "color_display_type": "swatches",
-            "color_selection_type": "multi",
-            "image_swatch_border_color": "#000000",
-            "image_swatch_border_radius": 38,
-            "image_display_type": "swatches",
-            "image_selection_type": "single",
-            "checkbox_display_type": "grid"
           }
         },
         "apo_product_options_app_block_igkije": {
@@ -75,9 +52,15 @@
         },
         "custom_liquid_xmbRzx": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "<a href=\"https://cdn.shopify.com/s/files/1/0947/9467/8574/files/Ring_Size_Guide.pdf?v=1756296222\" target=\"_blank\" rel=\"noopener noreferrer\">\n  Ring Size Guide\n</a>"
+            "custom_liquid": "<a href=\"https://cdn.shopify.com/s/files/1/0947/9467/8574/files/Ring_Size.pdf?v=1756981561\" target=\"_blank\" rel=\"noopener noreferrer\">\n  Ring Size Guide\n</a>"
+          }
+        },
+        "text_PPjNd7": {
+          "type": "text",
+          "settings": {
+            "text": "* Actual product may vary from the Image.",
+            "text_style": "body"
           }
         },
         "buy_buttons": {
@@ -103,15 +86,18 @@
         "vendor",
         "title",
         "price",
-        "custom_liquid_7JNmNw",
+        "custom_liquid_HqbPfJ",
         "variant_picker",
-        "option_plus_option_plus_block_qytF6m",
         "apo_product_options_app_block_igkije",
         "quantity_selector",
         "custom_liquid_xmbRzx",
+        "text_PPjNd7",
         "buy_buttons",
         "description",
         "share"
+      ],
+      "custom_css": [
+        ".product__text {margin: 0; font-size: xx-small;}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -153,14 +139,14 @@
         "heading_VXrBTe": {
           "type": "heading",
           "settings": {
-            "heading": "Rudraksha & You",
+            "heading": "Gemstones & You",
             "heading_size": "h1"
           }
         },
         "text_GABa9L": {
           "type": "text",
           "settings": {
-            "text": "<p>Rudraksha beads, sacred to Lord Shiva, hold spiritual power and protective energy. Their vibrations balance mind, body, and soul, fostering peace, focus, and resilience. Wearing Rudraksha reduces stress, sharpens intuition, and shields from negativity. From single to multi-Mukhi, each bead supports life aspects, guiding spiritual growth and inner strength.</p>",
+            "text": "<p>Vedic astrology links cosmic order with planetary motion—Sun, Moon, Mars, Jupiter, Venus, Mercury, Saturn, Rahu, and Ketu guiding human destiny. Gemstones, formed over millions of years, hold pure cosmic energies. Worn with faith, they channel planetary blessings, attracting harmony, protection, strength, and spiritual growth through their unique vibrational frequencies.</p>",
             "text_style": "body"
           }
         },
@@ -168,7 +154,7 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify://collections/rudrasha",
+            "button_link": "shopify://collections/gemstones",
             "button_style_secondary": true
           }
         }
@@ -180,7 +166,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/ChatGPT_Image_Sep_2_2025_01_34_17_PM.png",
+        "image": "shopify://shop_images/ChatGPT_Image_Sep_2_2025_01_42_55_PM.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -203,16 +189,16 @@
           "settings": {
             "heading": "What are its benefits?",
             "icon": "none",
-            "row_content": "<p>3 Mukhi Rudraksha helps release past karmic burdens and brings confidence, positivity, and self-esteem. It also promotes inner strength, peace of mind, and protection from negative energies.</p>",
+            "row_content": "<p>1. Citrine attracts positivity, uplifting your mood and outlook.<br/>2. It boosts confidence, encouraging a brighter, can-do attitude.<br/>3. Citrine enhances motivation, helping you stay focused on goals.<br/>4. It promotes abundance, attracting prosperity and success.<br/><br/><br/><br/></p>",
             "page": ""
           }
         },
         "collapsible_row_FcXCAg": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How natural and authentic is this Rudraksha?",
+            "heading": "How natural and authentic is this gemstone?",
             "icon": "none",
-            "row_content": "<p>The 2 Mukhi Rudraksha is 100% natural, sourced from genuine origins. Its authenticity is confirmed through lab certification and expert verification.</p>",
+            "row_content": "<p>All our stones are 100% natural and authentic. The healing stones have been sourced from top international mines from across the globe and certified by various labs.  <br/><br/></p>",
             "page": ""
           }
         },
@@ -221,7 +207,7 @@
           "settings": {
             "heading": "What is the return policy and estimated delivery duration?",
             "icon": "none",
-            "row_content": "<p>We provide secure shipping across India and globally. Returns are<br/>accepted within the specified period if the bead is unused and in its original<br/>condition. Please check our Return Policy page for full details.</p>",
+            "row_content": "<p>We offer a hassle-free 7-day return policy. Additionally, you can expect delivery within 10 to 14 days. <br/><br/></p>",
             "page": ""
           }
         },
@@ -230,7 +216,7 @@
           "settings": {
             "heading": "How is this energized and how can i wear it?",
             "icon": "none",
-            "row_content": "<p>The 2 Mukhi Rudraksha is energized with Vedic rituals and mantras to awaken its divine powers. It is best worn on Monday as a pendant or bracelet after proper purification and prayers.</p>",
+            "row_content": "<p><strong>How can crystals heal-</strong> All healing crystals correspond to different planets in our solar system, which is why each crystal vibrates at its unique frequency. These healing stones offer more than mere aesthetic value. At the right frequency the crystals directly affect the 7 chakras of the human body.  <br/><br/><br/><strong>What is energisation-</strong> When properly energised, the crystals vibrate at frequencies that align with the various chakras in our body. This process of ensuring the alignment of frequencies, known as the energization of a healing stone, enhances their therapeutic and psychic benefits. </p><p><br/><strong>How we help-</strong> At Astrotalk, we ensure that all our healing stones are sourced and energised by trusted experts and astrologers to guarantee their authenticity. Before delivery, all our healing stones are energised with pure intentions and energy by our esteemed astrologers, making them highly effective for our customers. </p>",
             "page": ""
           }
         }
