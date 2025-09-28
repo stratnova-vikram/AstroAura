@@ -221,17 +221,9 @@
           }
         }
       },
-      "block_order": [
-        "collapsible_row_UHdAxP",
-        "collapsible_row_FcXCAg",
-        "collapsible_row_w9tFbe",
-        "collapsible_row_q6rCE6"
-      ],
       "disabled": true,
       "name": "FAQ",
-      "settings": {
-      
-      }
+      "settings": {}
     }
   },
   "order": [
